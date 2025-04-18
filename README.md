@@ -50,13 +50,15 @@ This repository contains a Java application that:
 
 This logbook documents who did what and when, including a more detailed description of the activities.
 
-| Date        | Time From - To     | Duration (Minutes) | Name          | Description of Work                                                         |
-|-------------|--------------------|---------------------|---------------|------------------------------------------------------------------------------|
-| 2025-04-15  | 14:00 - 16:30      | 150                 | Abela Kodra   | Tested connection with Redis, adjusted Jedis configuration, prepared CSV file |
-| 2025-04-15  | 16:30 - 17:00      | 30                  | Luiz Marku    | Generated mock data (makaroo), validated .csv files                          |
-| 2025-04-16  | 09:00 - 10:30      | 90                  | Abela Kodra   | Implemented search methods by key and first name, added time measurement     |
-| 2025-04-16  | 10:30 - 11:30      | 60                  | Luiz Marku    | Code review and refactoring of RedisService class                            |
-| 2025-04-17  | 08:00 - 09:00      | 60                  | Abela Kodra   | Started Markdown documentation, conducted tests with 10,000 entries          |
-| 2025-04-17  | 09:00 - 09:30      | 30                  | Luiz Marku    | Cleaned up test data, updated README.md                                      |
+| Date        | Time From - To     | Duration (Minutes) | Name          | Description of Work                                                                                 |
+|-------------|--------------------|---------------------|---------------|------------------------------------------------------------------------------------------------------|
+| 2025-04-15  | 14:00 - 16:30      | 150                 | Abela Kodra   | Tested Redis connection and configured Jedis for integration                                         |
+| 2025-04-15  | 16:30 - 18:00      | 90                  | Luiz Marku    | Generated mock data using Mockaroo and validated the resulting `.csv` files                         |
+| 2025-04-16  | 09:00 - 10:30      | 90                  | Abela Kodra   | Implemented search by key and first name; added execution time logging                              |
+| 2025-04-16  | 10:30 - 11:30      | 60                  | Luiz Marku    | Reviewed and refactored the `RedisService` class for improved readability and performance           |
+| 2025-04-17  | 08:00 - 09:00      | 60                  | Abela Kodra   | Started Markdown documentation; tested with 10,000 Redis entries                                    |
+| 2025-04-17  | 09:00 - 09:30      | 30                  | Luiz Marku    | Cleaned test data and updated `README.md` with usage instructions                                   |
+| 2025-04-17  | 09:30 - 11:30      | 120                 | Luiz Marku    | Established and tested Redis connection in DataGrip; verified key queries and connection stability  |
+
 
 > Note: This log is updated regularly. Please add changes and new entries in chronological order.
